@@ -6,4 +6,10 @@ def loop_message_five_times(parameter)
   end
 end
 
-def loop_message_n_times
+def loop_message_n_times(parameter, integer)
+  counter = 0
+  while counter < integer do
+    puts parameter
+    counter += 1 
+  end
+end
